@@ -1,9 +1,9 @@
-import AppContent from './components/AppContent';
+import FileUpload from "./components/FileUpload";
 
 function App() {
   return (
     <div className="App">
-      <AppContent />
+      <FileUpload />
     </div>
   );
 }
