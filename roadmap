@@ -1,2 +1,11 @@
-friday: need to be able to upload file to VT & get results + display 
-saturday: deploy to ec2 
+[Web App]
+- set up base react app (DONE)
+- file upload component (DONE)
+- need to be able to upload file to VT (DONE)
+- need to be able to get analysis from VT (polling feature) (DONE)
+- results display component 
+
+[AWS]
+- set up ec2 server 
+- set up nginx 
+- ensure vpcs all properly configured 
