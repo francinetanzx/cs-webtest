@@ -108,7 +108,8 @@ const FileUpload = () => {
                     'x-apikey': process.env.REACT_APP_VT_API_KEY,
                     'Cache-Control': 'no-cache',
                     'Pragma': 'no-cache',
-                    'Expires': '0'
+                    'Expires': '0',
+                    'Access-Control-Allow-Origin': "*"
                 },
             });
 
@@ -144,6 +145,7 @@ const FileUpload = () => {
                     'Content-Type': 'multipart/form-data',
                     'Accept': 'application/json',
                     'x-apikey': process.env.REACT_APP_VT_API_KEY,
+                    'Access-Control-Allow-Origin': "*"
                 },
             });
 

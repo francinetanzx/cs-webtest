@@ -3,7 +3,7 @@
 - file upload component (DONE)
 - need to be able to upload file to VT (DONE)
 - need to be able to get analysis from VT (polling feature) (DONE)
-- results display component (DONE) - Left file name and SHA value
+- results display component (DONE) 
 
 [AWS]
 - set up ec2 server 
